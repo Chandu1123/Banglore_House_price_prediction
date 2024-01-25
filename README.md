@@ -3,6 +3,8 @@
 
 # Project flow
 
+
+
 1.install requirements.txt file
 
-2.data_cleeaning.ipynb
+2.data_cleaning.ipynb
