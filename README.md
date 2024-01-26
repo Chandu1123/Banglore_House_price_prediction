@@ -8,3 +8,6 @@
 1.install requirements.txt file
 
 2.data_cleaning.ipynb
+
+
+# Deployed  machine learning model to production AWS (Amazon EC2 instance)
