@@ -10,4 +10,16 @@
 2.data_cleaning.ipynb
 
 
-# Deployed  machine learning model to production AWS (Amazon EC2 instance)
+nginx is used for the dynamic link(localhost)
+
+How to execute :
+ 
+ 1) Install nginx
+ 2) make the below changes nginx conf file 
+    	location /api/ {
+		rewrite ^/api(.*) $1 break;
+		proxy_pass http://127.0.0.1:5000;
+	}
+
+
+
